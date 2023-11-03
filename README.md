@@ -177,3 +177,116 @@
 ![Affichage de la page - 1](./docs/Affichage%20de%20la%20page%201.png)
 ![Affichage de la page - 2](./docs/Affichage%20de%20la%20page%202.png)
 ![Affichage de la page - 3](./docs/Affichage%20de%20la%20page%203.png)
+
+#### <mark style="background-color:white;"> 6. Ajout de fichier dans git avec le tag "Structure" </mark>
+
+```shell
+git add .
+git commit -m "add structure file"
+git tag -a structure -m "structure"
+git remote add origin https://github.com/AbdeljalilElhassani/DCW.git
+git push origin main --tags
+```
+
+![Git Repository](./docs/git%20repository.png)
+
+# <mark style="background-color:green;">Un peu de style</mark>
+
+### <mark style="background-color:gray;"> 1. Ajout de fichier css/resume.css</mark>
+
+![Fichier resume.css](./docs/resume.css.png)
+
+### <mark style="background-color:gray;"> 2. Ajout de fichier css dans le head</mark>
+
+![ajout de fichier css dans le head](./docs/ajout%20de%20fichier%20css%20dans%20le%20head.png)
+
+### <mark style="background-color:gray;"> 3. Modification de resume.css </mark>
+
+#### <mark style="background-color:white;"> a. fond de page #777 </mark>
+
+Pour avoir un fond de page #777, on ajoute le code suivant dans le fichier resume.css :
+
+```css
+body {
+  background-color: #777;
+}
+```
+
+#### <mark style="background-color:white;"> b. Largeur maximale et minimale de div wrapper </mark>
+
+Pour définir une largeur maximale et minimale et centrer le contenu de la balise div avec l'id wrapper, on ajout le code css suivant :
+
+```css
+#wrapper {
+  max-width: 900px;
+  min-width: 320px;
+  margin: auto;
+}
+```
+
+#### <mark style="background-color:white;"> c. Modification de header</mark>
+
+Pour modifier et aligner l'image dans le header, on va ajouter le code suivant :
+
+```css
+header img {
+  float: right;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+```
+
+### <mark style="background-color:gray;"> 4.Les polices d'icônes "Font Awesome" </mark>
+
+#### <mark style="background-color:white;"> a. Ajout de lien dans l'HTML</mark>
+
+![Ajout de lien de font awesome dans HTML](./docs/Font%20Awesome%20Link.png)
+
+#### <mark style="background-color:white;"> b. Test de lien de font awesome </mark>
+
+Pour tester que le lien marche bien, on va ajouter la ligne suivante :
+
+```html
+<i class="fa-solid fa-camera-retro"></i>
+```
+
+et aussi le code suivant :
+
+```html
+<script
+  src="https://kit.fontawesome.com/9a057acc47.js"
+  crossorigin="anonymous"
+></script>
+```
+
+![Vérification de l'icone](./docs/ajout%20d'icone%20camera.png)
+
+### <mark style="background-color:gray;"> 5. Changement de police de caractères</mark>
+
+#### <mark style="background-color:white;"> Changement de font en utilisant Google Fonts </mark>
+
+En choisissant notre font, google font va nous genérer un lien à ajouter dans notre page html :
+
+![Choose font google](./docs/Choose%20a%20font%20google%20fonts.png)
+
+on ajoute le lien dans notre page html :
+
+![ajout des liens de google fonts](./docs/google%20font%20links.png)
+
+Modification de fichier css pour appliquer le font au Nom :
+
+```css
+header h1 {
+  font-family: "Dancing Script", cursive;
+}
+```
+
+Affichage :
+
+![Affichage de nom avec le font](./docs/affichage%20de%20nom%20avec%20font.png)
+
+Ajout d'autres fonts :
+
+![Modification de font d'autres balises](./docs/Modification%20de%20font%20d'autres%20balises.png)
