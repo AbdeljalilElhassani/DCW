@@ -271,7 +271,7 @@ En choisissant notre font, google font va nous genérer un lien à ajouter dans 
 
 ![Choose font google](./docs/Choose%20a%20font%20google%20fonts.png)
 
-on ajoute le lien dans notre page html :
+On ajoute le lien dans notre page html :
 
 ![ajout des liens de google fonts](./docs/google%20font%20links.png)
 
@@ -290,3 +290,22 @@ Affichage :
 Ajout d'autres fonts :
 
 ![Modification de font d'autres balises](./docs/Modification%20de%20font%20d'autres%20balises.png)
+
+#### <mark style="background-color:white;"> Push to Git </mark>
+
+Pour valider les modifications avec un tag CSS, on utilise les commandes suivantes :
+
+```shell
+git add .
+git commit -m "Feat : Ajout de code css"
+git tag -a CSS -m "CSS"
+git push origin main --tags
+```
+
+Vérification :
+
+![Valider les moficiations dans git](./docs/valider%20les%20modifications%20dans%20git.png)
+
+![Résultat final](./docs/Final%20CSS%201.png)
+![Résultat final](./docs/Final%20CSS%202.png)
+![Résultat final](./docs/Final%20CSS%203.png)
